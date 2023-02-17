@@ -16,7 +16,7 @@
               };
               installPhase = ''
                 mkdir -p $out/bin
-                cp hello_cmake $out/bin
+                cp hello_cmake $out/bin/hello-repeater
               '';
 
               nativeBuildInputs = [
