@@ -6,7 +6,7 @@ pkgs.stdenv.mkDerivation {
   src = pkgs.fetchgit {
     url = "https://github.com/soulomoon/hello.git";
     # rev = "c++-code-alone";
-    sha256 = "sha256-SbOWUPyfJOrZWpYfe9CLGwyCwNfez+szI1zzU1DDkCE=";
+    sha256 = "sha256-efTsJvPru/uOh+ZmQ29T+cx9WIfhTlow/UeOaOpcBbE=";
   };
 
   nativeBuildInputs = [
