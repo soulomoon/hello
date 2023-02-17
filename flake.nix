@@ -3,7 +3,7 @@
   inputs.flake-utils.url = "github:numtide/flake-utils";
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/cfa78cb43389635df0a9086cb31b74d3c3693935";
 
-  outputs = { self, nixpkgs }: {
+  outputs = { self, nixpkgs, ... }: {
     packages.aarch64-darwin.hello =
           let pkgs = import nixpkgs {
             system = "aarch64-darwin";
